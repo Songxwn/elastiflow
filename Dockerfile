@@ -15,7 +15,7 @@
 # Robert Cowart are Copyright (C)2020 Robert Cowart. All Rights Reserved.
 #------------------------------------------------------------------------------
 
-FROM docker.elastic.co/logstash/logstash:8.13.2
+FROM docker.elastic.co/logstash/logstash:7.17.20
 
 ARG BUILD_DATE
 
