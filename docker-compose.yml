@@ -21,7 +21,7 @@ services:
   elastiflow-logstash:
     image: songxwn/elastiflow-logstash:4.8.12
     container_name: elastiflow-logstash
-    restart: 'always'
+    restart: 'unless-stopped'
     network_mode: host
     environment:
       # JVM Heap size - this MUST be at least 3GB (4GB preferred)
